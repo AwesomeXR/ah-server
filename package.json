@@ -12,6 +12,9 @@
     "build": "tsc -p tsconfig.build.json --outDir dist",
     "release": "npm run ci && npm run build && rm -rf dist/* && npm run build && release-it"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@types/cron": "^1.7.2",
     "@types/jest": "^26.0.16",
