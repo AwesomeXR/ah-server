@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App curl 1`] = `
+{
+  "data": {
+    "output": "hi",
+  },
+  "status": 200,
+}
+`;
+
+exports[`App post body 1`] = `
+{
+  "data": {
+    "output": "hi",
+  },
+  "status": 200,
+}
+`;
+
+exports[`App validate 400 1`] = `
+{
+  "data": {
+    "output": "100",
+  },
+  "status": 200,
+}
+`;
